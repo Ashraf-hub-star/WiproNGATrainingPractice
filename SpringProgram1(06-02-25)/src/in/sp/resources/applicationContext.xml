@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+	<!-- we have to provide fully qualified name (in.sp.beans.Student) -->
+	<!-- id="stdId" by writing this it creates an object -->
+	<!-- we use a bean tag, and attributes -->
+	<bean class="in.sp.beans.Student" id="stdId"> 
+		<property name="name" value="Ashraf" />
+		<property name="rollno" value="101" />
+		<property name="email" value="ashraf@gmail.com" />
+	
+	</bean>
+	
+</beans>
